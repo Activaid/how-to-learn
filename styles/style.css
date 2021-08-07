@@ -139,6 +139,7 @@
 }
 
 /* Блок techniques */
+
 .techniques {
   margin: 0 auto;
   width: 80%;
@@ -146,7 +147,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-
 }
 
 .cards {
@@ -263,7 +263,6 @@
   width: 250px;
   margin-top: 60px;
   list-style-type: none;
-
 }
 
 .table__heading {
@@ -284,17 +283,19 @@
 /* Блок khan */
 
 .khan {
-  width: 80%;
-  padding-top: 105px;
   background-color: #f2f2f2;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .khan__container {
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-top: 105px;
 }
 
 .khan__autor {
