@@ -7,10 +7,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  transition: opacity 1s ease;
 }
 
 .footer__column-link:hover {
-  transition: opacity 1s ease;
   opacity: .7;
 }
 
